@@ -1,0 +1,34 @@
+/**
+ * Created by allancutler on 5/2/16.
+ */
+
+// Announcements
+export const POPULATE_ANNOUNCEMENTS = 'POPULATE_ANNOUNCEMENTS';
+// Authentication
+export const LOGIN_ATTEMPT = 'LOGIN_ATTEMPT';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILURE = 'LOGIN_FAILURE';
+// Cart
+export const POPULATE_CART = 'POPULATE_CART';
+export const CLEAR_CART = 'CLEAR_CART';
+// Company
+export const ADD_COMPANY_SETTINGS = 'ADD_COMPANY_SETTINGS';
+// Feature Toggles
+export const POPULATE_FEATURE_TOGGLES = 'POPULATE_FEATURE_TOGGLES';
+// Purchasing
+export const QUICK_BUY_SUCCESS = 'QUICK_BUY_SUCCESS';
+export const QUICK_BUY_FAILURE = 'QUICK_BUY_FAILURE';
+export const QUICK_BUY_ACTIVE = 'QUICK_BUY_ACTIVE';
+export const QUICK_BUY_UNACTIVE = 'QUICK_BUY_UNACTIVE';
+// Search
+export const CLEAR_SEARCH = 'CLEAR_SEARCH';
+export const SET_SEARCH_STRING = 'SET_SEARCH_STRING';
+export const SEARCH_IS_LOADING = 'SEARCH_IS_LOADING';
+export const POPULATE_SEARCH_RESULTS = 'POPULATE_SEARCH_RESULTS';
+export const PAGINATE_SEARCH_RESULTS = 'PAGINATE_SEARCH_RESULTS';
+// User
+export const ADD_USER_PROFILE = 'ADD_USER_PROFILE';
+export const USER_LOGOUT = 'USER_LOGOUT';
+// Notifications
+export const ADD_NOTIFICATION_MESSAGE = 'ADD_NOTIFICATION_MESSAGE';
+export const REMOVE_NOTIFICATION_MESSAGE = 'REMOVE_NOTIFICATION_MESSAGE';

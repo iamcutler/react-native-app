@@ -1,0 +1,8 @@
+--reporter dot
+--growl
+--ui bdd
+
+--require react-native-mock/mock ./test/setup.js
+--compilers js:babel-register
+
+test/**/*.js
